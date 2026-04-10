@@ -34,3 +34,4 @@ gem "wdm", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "webrick"
 
 gem "csv", "~> 3.3"
+gem 'logger'
