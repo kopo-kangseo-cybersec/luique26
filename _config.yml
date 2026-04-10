@@ -41,7 +41,7 @@ date_format: "%Y-%m-%d"
 paginate: 6
 paginate_path: "/blog/page:num/"
 permalink: pretty
-
+ 
 # disqus comments
 disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
 disqus_shortname: "seula6201" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
