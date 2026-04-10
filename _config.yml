@@ -29,12 +29,12 @@
 # in the templates via {{ site.myvariable }}.
 
 # basic settings
-title: "Luique - CV Resume & Personal Portfolio Jekyll Theme"
-email: "your-email@example.com"
-description: "Jekyll Resume / CV / vCard / Portfolio and Personal Portfolio by bslthemes"
-author: "Luique"
-baseurl: "/luique26" # the subpath of your site, e.g. /blog
-url: "https://kopo-kangseo-cybersec.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+title: "김민찬 - 사이버보안 포트폴리오"
+email: "venus937702@gmail.com"
+description: "사이버보안 전문가 김민찬의 포트폴리오입니다. 다양한 프로젝트와 경험을 통해 사이버보안 분야에서 역량을 보여줍니다"
+author: "김민찬"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://venus937702-oss.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
 
 # paginations & permalinks
@@ -44,10 +44,10 @@ permalink: pretty
 
 # disqus comments
 disqus_comments: "yes" # yes - show disqus comments, no - hide disqus comments
-disqus_shortname: "glitche-jekyll-theme" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+disqus_shortname: "kimminchan07" # read more here https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
 
 # formsubmit.io
-formspree_endpoint: "https://formspree.io/f/your_endpoint" # sign up on https://formspree.io/ and create your form endpoint
+formspree_endpoint: "https://formspree.io/f/xdaprgkk" # sign up on https://formspree.io/ and create your form endpoint
 
 # collections
 collections:
