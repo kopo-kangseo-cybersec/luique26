@@ -33,7 +33,7 @@ title: "김대경  - 사이버보안 포트폴리오"
 email: "kimdk033@naver.com"
 description: "김대경의 사이버보안 포트폴리오입니다. 다양한 프로젝트와 경험을 통해 사이버보안 분야에서의 역량을 보여줍니다."
 author: "Luique"
-baseurl: "/luique26" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://kimdaekyung03.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
 
