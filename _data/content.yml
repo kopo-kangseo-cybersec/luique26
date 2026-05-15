@@ -256,10 +256,10 @@ contacts:
       text: "0217lol@naver.com"
       link: "mailto:0217lol@naver.com"
 
-    - label: "GitHub"
+    - label: "깃허브"
       icon: "fab fa-github"
-      text: "github.com/honggildong"
-      link: "https://github.com/honggildong"
+      text: "github.com/seula6201"
+      link: "https://github.com/seula6201"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
