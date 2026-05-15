@@ -6,9 +6,9 @@
 ### Hero [ hero-image ]
 hero:
   image: "assets/img/profile.png"
-  image_alt: "이태원"
+  image_alt: "임주혁"
   before_title: "환영합니다, <b>제 이름은</b>"
-  title: "<b>Taewon</b> Lee"
+  title: "<b>Juhyeok</b> Lim"
   after_title: "I am <strong>Cyber Security Professional</strong>"
   description: "폴리텍 대학 강서캠퍼스 사이버 보안과 2학년 입니다."
   button1:
@@ -70,33 +70,33 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
+      - label: "Shell Script" #0-10 progress in dots
+        text: "Bash 및 sh 기반의 스크립트 작성 능력을 갖추고 있으며 자동화, 파일처리, 시스템관리 작업에 활용합니다."
+        value: "70" #0-100 progress in %
 
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "Linux" #0-10 progress in dots
+        text: "리눅스마스터2급, 네트워크관리사2급 자격증을 보유하고 있으며 iptalbes를 활용한 방화벽 규칙 설정 및 OPNsense 기반 네트워크 보안 관리 경험을 보유하고 있습니다."
+        value: "70" #0-100 progress in %
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "Python" #0-10 progress in dots
+        text: "데이터 분석 및 스크립트 작성에 python을 활용하며 가본 문법과 라이브러리를 실무에 적용할 수 있습니다."
         value: "75" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "70" #0-100 progress in %
+      # - label: "JavaScript" #0-10 progress in dots
+      #   text: "기본 문법을 바탕으로 간단한 이터렉션 구현이 가능하며 꾸준히 활용 범위를 넓혀가고 있습니다.  "
+      #   value: "60" #0-100 progress in %
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "JavaScript" #0-10 progress in dots
+        text: "기본 문법을 바탕으로 간단한 이터렉션 구현이 가능하며 꾸준히 활용 범위를 넓혀가고 있습니다."
         value: "90" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      # - label: "Adobe XD" #0-10 progress in dots
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #   value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
