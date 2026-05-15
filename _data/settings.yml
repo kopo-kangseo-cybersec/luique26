@@ -14,7 +14,7 @@ preloader:
 
 ### Header
 header:
-  logo:
+  logo: 
     image: "assets/img/logo2.png"
     alt: "Zoé Miller"
 
