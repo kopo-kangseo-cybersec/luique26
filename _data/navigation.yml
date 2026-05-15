@@ -7,12 +7,12 @@
 
 main:
   # Home
-  - title: "Home"
+  - title: "홈"
     url: "/"
     parent: 0
 
   # Services
-  - title: "Services"
+  - title: "서비스"
     url: "#services-section"
     parent: 0
 
@@ -21,13 +21,18 @@ main:
     url: "#skills-section"
     parent: 0
 
+  # Portpolio
+  - title: "포트폴리오"
+    url: "#portfolio-section"
+    parent: 0
+
   # Works
   - title: "Works"
     url: "#works-section"
     parent: 0
 
   # Resume
-  - title: "Resume"
+  - title: "이력서"
     url: "#resume-section"
     parent: 0
 
@@ -42,12 +47,12 @@ main:
     parent: 0
 
   # Blog
-  - title: "Blog"
+  - title: "블로그"
     url: "#blog-section"
     parent: 0
 
   # Contact
-  - title: "Contact"
+  - title: "연락하기"
     url: "#contact-section"
     parent: 0
 
@@ -61,3 +66,13 @@ main:
 
         - title: "Blog"
           url: "blog/"
+  # 서브메뉴 추가하기
+  # - title: "더보기"
+  #   url: ""
+  #   parent: 1
+  #   childs:
+  #     - title: "포트폴리오 전체"
+  #       url: "works/"
+
+  #     - title: "블로그"
+  #       url: "blog/"
