@@ -6,9 +6,9 @@
 ### Hero [ hero-image ]
 hero:
   image: "assets/img/profile.png"
-  image_alt: "이태원"
+  image_alt: "이혜진"
   before_title: "환영합니다, <b>제 이름은</b>"
-  title: "<b>Taewon</b> Lee"
+  title: "<b>Hyejin</b> Lee"
   after_title: "I am <strong>Cyber Security Professional</strong>"
   description: "폴리텍 대학 강서캠퍼스 사이버 보안과 2학년 입니다."
   button1:
@@ -22,7 +22,7 @@ hero:
     - num: "2 <strong>+</strong>"
       value: "Years of <strong>Experience</strong>"
 
-    - num: "4"
+    - num: "2"
       value: "Completed <strong>Projects</strong>"
 
 ### Services [ services ]
@@ -32,33 +32,21 @@ services:
   bg_title: "Services"
 
   items:
-    - title: "Web Design &amp; Logo"
-      subtitle: "Web Development"
-      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+    - title: "취약점 분석 &amp; 모의해킹"
+      subtitle: "Vulnerability Assessment &amp; Penetration Testing"
+      text: "웹 애플리케이션 및 시스템 환경의 취약점을 분석하고, CTF 경험을 바탕으로 침투 테스트를 수행합니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "iOS &amp; Android"
-      subtitle: "Apps Development"
-      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
+    - title: "네트워크 보안"
+      subtitle: "Network Security"
+      text: "iptables, Snort, IDS 등을 활용한 네트워크 트래픽 분석 및 침입 탐지 시스템 구축 경험이 있습니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
-    - title: "Unity &amp; Unreal Engine"
-      subtitle: "Game Development"
-      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
-
-    - title: "Google Ads"
-      subtitle: "Advertising"
-      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
-      button_label: "See Pricing"
-      button_link: "#pricing-section"
-
-    - title: "Sound Track"
-      subtitle: "Music Writing"
-      text: "Music copying, writing, creating, transcription and composition services."
+    - title: "웹 보안"
+      subtitle: "Web Security"
+      text: "Burp Suite를 활용한 웹 애플리케이션 취약점 분석 및 보안 점검을 수행합니다."
       button_label: "See Pricing"
       button_link: "#pricing-section"
 
@@ -70,33 +58,33 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
+      - label: "Python"
+        text: "자동화 스크립트, 네트워크 패킷 분석, 보안 도구 개발 등에 활용합니다."
+        value: "75"
 
-      - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "C / C++"
+        text: "시스템 프로그래밍 및 보안 관련 알고리즘 구현에 활용합니다."
+        value: "75"
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "Linux / Bash"
+        text: "Kali Linux 기반 침투 테스트 및 쉘 스크립트 작성 경험이 있습니다."
+        value: "75"
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "70" #0-100 progress in %
+      - label: "Wireshark"
+        text: "네트워크 트래픽 캡처 및 패킷 분석 도구로 활용합니다."
+        value: "75"
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
+      - label: "Burp Suite"
+        text: "웹 애플리케이션 취약점 분석 및 프록시 기반 보안 점검에 사용합니다."
+        value: "70"
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      - label: "Nmap"
+        text: "네트워크 스캐닝 및 포트 분석을 통한 공격 표면 파악에 활용합니다."
+        value: "70"
 
 ### Resume [ resume ]
 resume:
@@ -105,41 +93,55 @@ resume:
   bg_title: "History"
 
   education:
-    title: "Education"
+    title: "Education &amp; Certification"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "한국폴리텍대학 강서캠퍼스"
+        subname: "사이버보안과"
+        period: "2025 - Present"
+        text: "네트워크 보안, 시스템 해킹, 악성코드 분석 등 사이버 보안 전반을 전공하고 있습니다."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "네트워크관리사 2급"
+        subname: "한국정보통신자격협회"
+        period: "2025.12"
+        text: "네트워크 설계, 운영 및 관리 능력을 검증하는 국가공인 자격증을 취득하였습니다."
 
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "리눅스마스터 2급"
+        subname: "한국정보통신진흥협회"
+        period: "2025.10"
+        text: "리눅스 시스템 운영 및 관리 역량을 검증하는 자격증을 취득하였습니다."
+
+      - name: "공동주택IT안전관리사 2급"
+        subname: "한국홈네트워크안전관리협회"
+        period: "2025.09"
+        text: "공동주택 IT 인프라의 보안 및 안전 관리 역량을 검증하는 자격증을 취득하였습니다."
 
   experience:
     title: "Experience"
     items:
-      - name: "UI Head &amp; Manager"
-        subname: "Soft Tech Inc."
-        period: "2020 - <b>Present</b>"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "융합프로젝트 — PM"
+        subname: "한국폴리텍대학 강서캠퍼스"
+        period: "2026.03 - 2026.06"
+        text: "북한OS 환경에서 백도어를 기반한 랜섬웨어 동작 구현 및 대응 프로젝트를 PM으로 담당, 보고서 작성 및 발표."
 
-      - name: "UI / UX Specialist"
-        subname: "Kana Design Studio"
-        period: "2018 - 2020"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "동아리 &lt;White RootKit&gt;"
+        subname: "보안 스터디 &amp; 프로젝트"
+        period: "2026.01 - 2026.12"
+        text: "iptables/Snort/IDS를 활용한 LLM AI 자동화 프로젝트 진행 및 VPN 구현. 방학 보안 스터디 참여."
 
-      - name: "Plugins Developer"
-        subname: "Fiverr.com"
-        period: "2016 - 2018"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "동계학술대회 논문 발표"
+        subname: "한국컴퓨터정보학회"
+        period: "2025.09 - 2025.12"
+        text: "스타일 지문 기반 AI 저작권 보호 시스템 논문 작성 및 발표. 2026년 동계학술대회 논문집 제34권 1호 등재."
 
+      - name: "만우조홍제스칼러십 홍보단 팀장"
+        subname: "한국타이어나눔재단"
+        period: "2025.08 - 2026.08"
+        text: "기술인재 장학생으로 선발되어 홍보단 팀장으로 활동. 비전 워크숍 팀프로젝트 우수상 수상 (2025.08)."
+
+      - name: "1학년 과대표"
+        subname: "한국폴리텍대학 강서캠퍼스 사이버보안과"
+        period: "2025.03 - 2025.12"
+        text: "학과 학생 대표로 학사 일정 관리 및 학생-교수 간 소통 역할을 담당하였습니다."
 
 ### Testimonials [ testimonials ]
 testimonials:
@@ -172,7 +174,6 @@ testimonials:
       name: "Paul Freeman"
       role: "Photographer"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
 
 ### Pricing [ pricing ]
 pricing:
@@ -236,9 +237,7 @@ pricing:
         label: "Start Project"
         link: "#contact-section"
 
-
 ### Blog [ blog ]
-#items generates from dir /_posts/*
 blog:
   title: "Latest Blog"
   subtitle: "my <b>Articles and Advice</b>"
@@ -247,32 +246,26 @@ blog:
     label: "View Blog"
     link: "blog/"
 
-
 ### Contact [ contacts ]
 contacts:
   title: "Contact Me"
-  subtitle: "Let’s <b>Talk About Ideas</b>"
+  subtitle: "Let's <b>Talk About Ideas</b>"
   bg_title: "Contact Me"
 
   list:
-    - label: "Address"
+    - label: "Location"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
-
-    - label: "Freelance"
-      icon: "far fa-user"
-      text: "Available Right Now"
+      text: "서울특별시 강서구"
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "wls2668@naver.com"
 
-    - label: "Phone"
-      icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      text: "github.com/leehyejin02"
 
 ### Portfolio [ portfolio ]
-#items generates from dir /_works/*
 portfolio:
   title: "Portfolio"
   subtitle: "my <b>Cases</b>"
