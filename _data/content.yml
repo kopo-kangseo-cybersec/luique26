@@ -5,7 +5,7 @@
 
 ### Hero [ hero-image ]
 hero:
-  image: "assets/img/profile.png"
+  image: "assets/img/profile1.png"
   image_alt: "이종환"
   before_title: "환영합니다, <b>제 이름은</b>"
   title: "<b>JONGHWAN</b> Lee"
@@ -70,33 +70,37 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
+      - label: "Linux" #0-10 progress in dots
+        text: "Ubuntu, Kali Linux 등 다양한 배포판을 사용해왔으며, iptables와 OPNsense를 활용한 네트워크 보안 실습 경험이 있습니다"
+        value: "70" #0-100 progress in %
 
       - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+        text: "기본적인 프로그래밍 개념을 이해하고 있으며, 프로젝트에서 실제로 활용한 경험이 있습니다."
+        value: "60" #0-100 progress in %
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
-
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - label: "SHELL Script" #0-10 progress in dots
+        text: "Linux 환경에서 반복 작업을 자동화하는 스크립트를 작성하고 운용한 경험이 있습니다."
         value: "70" #0-100 progress in %
+
+      # - label: "Wireshark" #0-10 progress in dots
+      #   text: "네트워크 패킷을 캡처하고 분석하여 트래픽 이상 여부를 진단한 경험이 있습니다."
+      #   value: "65" #0-100 progress in %
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      - label: "Wireshark" #0-10 progress in dots
+        text: "네트워크 패킷을 캡처하고 분석하여 트래픽 이상 여부를 진단한 경험이 있습니다."
+        value: "65" #0-100 progress in %
+      # - label: "WordPress" #0-10 progress in dots
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #   value: "90" #0-100 progress in %
+
+      # - label: "Adobe XD" #0-10 progress in dots
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      #   value: "80" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
@@ -104,24 +108,36 @@ resume:
   subtitle: "my <b>Story</b>"
   bg_title: "History"
 
+  # education:
+  #   title: "Education"
+  #   items:
+  # - name: "CoderHouse Courses"
+  #   subname: "Backend Programming"
+  #   period: "2014 - 2016"
+  #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  # - name: "Lviv National Academy of Arts"
+  #   subname: "Faculty of Design"
+  #   period: "2012 - 2014"
+  #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  # - name: "IT Future"
+  #   subname: "High School"
+  #   period: "2010 - 2012"
+  #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
   education:
     title: "Education"
     items:
-      - name: "CoderHouse Courses"
-        subname: "Backend Programming"
-        period: "2014 - 2016"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      - name: "Korea Polytechnic University"
+        subname: "Department of Cyber Security"
+        period: "2025 - 2027"
+        text: "Studying cybersecurity, network security, and system administration."
 
-      - name: "Lviv National Academy of Arts"
-        subname: "Faculty of Design"
-        period: "2012 - 2014"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-      - name: "IT Future"
-        subname: "High School"
-        period: "2010 - 2012"
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
+      - name: "Seoul Aviation Business High School"
+        subname: "Department of Tourism & Business"
+        period: "2015 - 2018"
+        text: "Studied tourism management and business administration."
   experience:
     title: "Experience"
     items:
@@ -139,7 +155,6 @@ resume:
         subname: "Fiverr.com"
         period: "2016 - 2018"
         text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
 
 ### Testimonials [ testimonials ]
 testimonials:
@@ -172,7 +187,6 @@ testimonials:
       name: "Paul Freeman"
       role: "Photographer"
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
 
 ### Pricing [ pricing ]
 pricing:
@@ -236,7 +250,6 @@ pricing:
         label: "Start Project"
         link: "#contact-section"
 
-
 ### Blog [ blog ]
 #items generates from dir /_posts/*
 blog:
@@ -247,7 +260,6 @@ blog:
     label: "View Blog"
     link: "blog/"
 
-
 ### Contact [ contacts ]
 contacts:
   title: "Contact Me"
@@ -257,7 +269,7 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-      text: "North Tower, Toronto, Canada"
+      text: "Gangseo, Seoul, South korea"
 
     - label: "Freelance"
       icon: "far fa-user"
@@ -265,11 +277,11 @@ contacts:
 
     - label: "Email"
       icon: "far fa-envelope"
-      text: "zoe.miller@mydomain.com"
+      text: "gta224106@gmail.com"
 
     - label: "Phone"
       icon: "far fa-address-book"
-      text: "+1 900 - 900 - 9000"
+      text: "+82  010 - 492x - 323x"
 
 ### Portfolio [ portfolio ]
 #items generates from dir /_works/*
