@@ -33,7 +33,7 @@ title: "이혜진 - 사이버보안 포트폴리오"
 email: "wls2668@naver.com"
 description: "사이버보안 전문가 이혜진의 포트폴리오입니다. 다양한 프로젝트와 경험을 통해 사이버보안 분야에서의 역량을 보여줍니다."
 author: "이혜진"
-baseurl: "/luique26" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://leehyejin02.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 date_format: "%Y-%m-%d"
 
