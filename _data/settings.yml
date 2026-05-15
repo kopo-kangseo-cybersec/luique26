@@ -20,17 +20,17 @@ header:
 
 ### Social
 social:
-  - title: "Twitter"
-    icon: "fab fa-twitter"
-    url: "http://twitter.com"
+  - title: "instagram"
+    icon: "fab fa-instagram"
+    url: "http://instagram.com"
 
-  - title: "Dribbble"
+  - title: "dribbble"
     icon: "fab fa-dribbble"
     url: "http://dribbble.com"
 
-  - title: "Behance"
-    icon: "fab fa-behance"
-    url: "http://behance.com"
+  - title: "youtube"
+    icon: "fab fa-youtube"
+    url: "http://youtube.com"
 
 ### Footer
 footer:

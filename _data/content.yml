@@ -6,9 +6,9 @@
 ### Hero [ hero-image ]
 hero:
   image: "assets/img/profile.png"
-  image_alt: "이태원"
+  image_alt: "김대경"
   before_title: "환영합니다, <b>제 이름은</b>"
-  title: "<b>Taewon</b> Lee"
+  title: "<b>DaeKyung</b> Kim"
   after_title: "I am <strong>Cyber Security Professional</strong>"
   description: "폴리텍 대학 강서캠퍼스 사이버 보안과 2학년 입니다."
   button1:
@@ -70,33 +70,33 @@ skills:
 
   column1:
     items:
-      - label: "PHP" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "85" #0-100 progress in %
+      - label: "LINUX" #0-10 progress in dots
+        text: "Ubuntu 기반 서버 운영 및 CLI 환경 시스템 관리 역량 보유."
+        value: "30" #0-100 progress in %
 
       - label: "Python" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+        text: "Pandas 및 Flask를 활용한 데이터 처리 및 API 서버 구축 가능."
+        value: "25" #0-100 progress in %
 
   column2:
     items:
-      - label: "JavaScript" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "75" #0-100 progress in %
+      - label: "Packet Tracer" #0-10 progress in dots
+        text: "L2/L3 스위칭 및 라우팅 시뮬레이션을 통한 네트워크 인프라 설계."
+        value: "25" #0-100 progress in %
 
-      - label: "React" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "70" #0-100 progress in %
+      - label: "Shell Script" #0-10 progress in dots
+        text: "Bash 스크립팅을 이용한 로그 관리 및 시스템 작업 자동화 구현."
+        value: "25" #0-100 progress in %
 
   column3:
     items:
-      - label: "WordPress" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "90" #0-100 progress in %
+      - label: "Iptables" #0-10 progress in dots
+        text: "커널 방화벽 정책 수립 및 트래픽 필터링을 통한 네트워크 보안 설정."
+        value: "50" #0-100 progress in %
 
-      - label: "Adobe XD" #0-10 progress in dots
-        text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-        value: "80" #0-100 progress in %
+      - label: "WordPress" #0-10 progress in dots
+        text: "CMS 기반 웹 서비스 구축 및 DB 연동을 통한 콘텐츠 관리 운영."
+        value: "50" #0-100 progress in %
 
 ### Resume [ resume ]
 resume:
